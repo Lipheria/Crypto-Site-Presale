@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="https://kit.fontawesome.com/ae95a29147.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <a href="index.html"><h2>Cryptic</h2></a>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="search here">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            <i class="fas fa-bell"></i>
+            <div class="user">
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fas fa-th-large"></i>
+                        <div>Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="buyToken.html">
+                        <i class="fa fa-coins"></i>
+                        <div>Buy Token</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-arrow-down"></i>
+                        <div>Transactions</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-users"></i>
+                        <div>Profile</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Analytics</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <div>Earnings</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <div>Settings</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        <div>Questions</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="cards">
+                <div class="card">
+                    <div class="card-content">
+                        <h2>Token Balance</h2>
+                        <div class="number">0</div>
+                        <div class="card-name"></div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa fa-coins"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h2>Buy Token</h2>
+                        <div class="number">1 Token = 1 USD</div>
+                        <a href="buyToken.html">Buy Now</a>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa fa-credit-card"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h2>Account Status</h2>
+                        <i class="fa fa-check"></i><div class="number">Verified</div>
+                        <h2>Receiving Wallet</h2>
+                        <a href="">Add wallet address</a>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa fa-wallet"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="charts">
+                <div class="chart">
+                    <h2>Token Price Graph</h2>
+                    <canvas id="line-chart" width="400" height="400"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+    <script src="./js/chart1.js"></script>
+</body>
+</html>

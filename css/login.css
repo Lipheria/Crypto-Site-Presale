@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif; 
+}
+
+.content{
+    display: flex;
+    min-height: 100vh;
+}
+
+.picture{
+    max-width: 50%;
+    max-height: 100%;
+    background-color: #6C63FF;
+
+}
+
+.textbox{
+   color: white;
+    text-align: center;
+    transform: translateY(70px);
+    
+}
+
+.textbox .iconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox .iconbox .icon{
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+
+.picture h3{
+    font-size: 2em;
+}
+
+.imgbox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-right: 50px;
+}
+
+.picture img{
+    max-width: 60%;
+    max-height: 100%;
+    z-index: 10000;
+    padding-top: 100;
+    transform: translateY(-20px);
+  
+}
+
+.contact-form{
+    padding: 40px;
+}
+
+.contact-form h1{
+    padding-left: 180px;
+}
+
+.contact-form .form-content{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form .form-content .name{
+    display: flex;
+}
+
+.contact-form .form-content .name .lname{
+    padding-left: 20px;
+}
+
+
+.inputBox input {
+    width: 250%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+
+.inputBox.email{
+    padding-top: 20px;
+    width: 80%;
+}
+
+.query{
+    padding-top: 20px;
+}
+
+.query .queryType{
+    width: 80%;
+}
+
+.description{
+    padding-top: 20px;
+}
+
+.description .inputBox{
+    width: 80%;
+    height: 40%;
+}
+
+ .inputBox input[type="submit"]{
+
+    background: #6C63FF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5%;
+} 
+
+
+.social-box h3{
+    position: relative;
+    left: 180px;
+    padding-top: 40px;
+
+}
+
+
+.sci{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sci li{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #607d8b;
+    border-radius: 50%;
+    margin: 0 7px;
+    cursor: pointer;
+    position: relative;
+    left: 140px;
+}
+
+
+.sci li:hover{
+    background: #6C63FF;
+}
+
+
+.sci li .fa{
+   filter: invert(1);
+}
