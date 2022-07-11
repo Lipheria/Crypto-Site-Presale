@@ -168,3 +168,20 @@
 .sci li .fa{
    filter: invert(1);
 }
+
+.sign-up{
+    position: relative;
+    left: 180px;
+    padding-top: 40px
+}
+
+.sign-up a{
+    text-decoration: none;
+    background-color: #6C63FF;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
